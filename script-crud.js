@@ -47,7 +47,7 @@ function criarElementoTarefa(tarefa) {
     }
 
     const imagemBotao = document.createElement('img')
-    imagemBotao.setAttribute('src', '/imagens/edit.png')
+    imagemBotao.setAttribute('src', './imagens/edit.png')
     botao.append(imagemBotao)
 
     li.append(svg)
